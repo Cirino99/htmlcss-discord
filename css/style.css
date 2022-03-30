@@ -37,6 +37,7 @@ header nav #navsx {
 }
 header nav #navcenter {
     float: left;
+    padding-top: 5px;
     width: 40%;
     height: 100%;
     text-align: center;
@@ -53,6 +54,9 @@ header nav #navcenter ul li a {
     text-decoration: none;
     font-size: 18px;
 }
+header nav #navcenter ul li a:hover {
+    text-decoration: underline;
+}
 header nav #navdx {
     float: left;
     width: 30%;
@@ -64,6 +68,10 @@ header nav #navdx .button {
     color: black;
     background-color: white;
     border-radius: 20px;
+}
+header nav #navdx .button:hover {
+    color: #7289da;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
 }
 
 /* jumbotron */
@@ -100,6 +108,10 @@ header nav #navdx .button {
     border-radius: 30px;
     margin-right: 40px;
 }
+#jumbotron .container .buttons .button:hover {
+    color: #7289da;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+}
 #jumbotron .container .buttons .button i {
     margin-right: 5px;
 }
@@ -107,6 +119,10 @@ header nav #navdx .button {
     color: white;
     background-color: #23272a;
     margin-right: 0;
+}
+#jumbotron .container .buttons .bblack:hover {
+    color: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
 }
 
 /* main */
@@ -118,7 +134,7 @@ main #box2{
     background-color: #f6f6f6;
 }
 main #box4{
-    height: 1100px;
+    height: 1300px;
     background-color: #f6f6f6;
     text-align: center;
     padding-top: 50px;
@@ -150,6 +166,19 @@ main .box p {
 main .box h3 {
     font-size: 30px;
     margin-top: 50px;
+}
+main #box4 .img img{
+    width: 1200px;
+    height: auto;
+}
+main #box4 .text {
+    position: relative;
+}
+main #box4 #star {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-100%);
 
 }
 main .box .button {
@@ -160,6 +189,9 @@ main .box .button {
     font-size: 25px;
     border-radius: 30px;
     margin-right: 40px;
+}
+main .box .button:hover {
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
 }
 main .box .button i {
     margin-right: 5px;
@@ -225,6 +257,9 @@ footer .risorse ul li a {
     text-decoration: none;
     color: white;
 }
+footer .risorse ul li a:hover {
+    text-decoration: underline;
+}
 footer .colsx {
     float: left;
     width: 50%;
@@ -245,4 +280,7 @@ footer .coldx .button {
     background-color: #8ea1e1;
     padding: 8px 15px;
     border-radius: 20px;
+}
+footer .coldx .button:hover {
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
 }
