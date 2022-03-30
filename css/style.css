@@ -116,7 +116,7 @@ main #box2{
     background-color: #f6f6f6;
 }
 main #box4{
-    height: 1000px;
+    height: 1100px;
     background-color: #f6f6f6;
     text-align: center;
     padding-top: 50px;
@@ -161,4 +161,86 @@ main .box .button {
 }
 main .box .button i {
     margin-right: 5px;
+}
+
+/* footer */
+footer {
+    background-color: #23272a;
+    width: 100%;
+    height: 700px;
+}
+footer .social {
+    float: left;
+    width: 30%;
+    margin-top: 50px;
+}
+footer .social #lingua h3 {
+    font-size: 35px;
+    color: #7289da;
+}
+footer .social #lingua img {
+    height: 18px;
+    width: auto;
+    margin-top: 20px;
+}
+footer .social #lingua span {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+footer .social #lingua span i {
+    margin-left: 5px;
+}
+footer .social #social {
+    margin-top: 20px;
+}
+footer .social #social i {
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+footer .risorse {
+    float: left;
+    width: calc(17.5% - 20px);
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+footer .risorse h4 {
+    color: #7289da;
+    padding-top: 5px;
+}
+footer .risorse ul {
+    list-style-type: none;
+}
+footer .risorse ul li {
+    line-height: 40px;
+}
+footer .risorse ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer .colsx {
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: solid 1px #7289da;
+}
+footer .coldx {
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: solid 1px #7289da;
+}
+footer .coldx .button {
+    color: white;
+    background-color: #8ea1e1;
+    padding: 8px 15px;
+    border-radius: 20px;
 }
