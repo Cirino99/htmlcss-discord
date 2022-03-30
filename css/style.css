@@ -133,6 +133,9 @@ main .box {
 main #box2{
     background-color: #f6f6f6;
 }
+main .wave {
+    position: relative;
+}
 main #box4{
     height: 1300px;
     background-color: #f6f6f6;
@@ -173,6 +176,7 @@ main #box4 .img img{
 }
 main #box4 .text {
     position: relative;
+    margin-top: 50px;
 }
 main #box4 #star {
     position: absolute;
@@ -195,6 +199,14 @@ main .box .button:hover {
 }
 main .box .button i {
     margin-right: 5px;
+}
+.waveimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    transform: translate(0%, -60%);
 }
 
 /* footer */
