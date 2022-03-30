@@ -7,8 +7,8 @@ body {
     font-family: Helvetica, sans-serif;
 }
 .container {
-    width: 80%;
-    margin: 0 10%;
+    width: 70%;
+    margin: 0 auto;
 }
 .row::after {
     content: "";
@@ -105,4 +105,60 @@ header nav #navdx .button {
     color: white;
     background-color: #23272a;
     margin-right: 0;
+}
+
+/* main */
+main .box {
+    height: 700px;
+    width: 100%;
+}
+main #box2{
+    background-color: #f6f6f6;
+}
+main #box4{
+    height: 1000px;
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-top: 50px;
+}
+main .box .colimg {
+    float: left;
+    width: 65%;
+    padding: 0 5%;
+    margin-top: 100px;
+}
+main .box .colimg img {
+    max-width: 100%;
+    max-height: auto;
+}
+main .box .coltext {
+    float: left;
+    width: 35%;
+    padding: 0 10px;
+    margin-top: 130px;
+}
+main .box h2 {
+    font-size: 50px;
+}
+main .box p {
+    margin-top: 50px;
+    font-size: 22px;
+    line-height: 30px;
+}
+main .box h3 {
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+main .box .button {
+    margin-top: 50px;
+    color: white;
+    background-color: #8ea1e1;
+    padding: 15px 25px;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-right: 40px;
+}
+main .box .button i {
+    margin-right: 5px;
 }
