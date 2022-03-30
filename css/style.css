@@ -29,6 +29,7 @@ header nav {
     height: 80px;
     width: 100%;
     padding-top: 30px;
+    min-width: 1400px;
 }
 header nav #navsx {
     float: left;
@@ -80,6 +81,7 @@ header nav #navdx .button:hover {
     height: 650px;
     width: 100%;
     background-size: cover;
+    min-width: 1400px;
 }
 #jumbotron .container {
     max-width: 50%;
@@ -129,6 +131,7 @@ header nav #navdx .button:hover {
 main .box {
     height: 700px;
     width: 100%;
+    min-width: 1400px;
 }
 main #box2{
     background-color: #f6f6f6;
@@ -214,6 +217,7 @@ footer {
     background-color: #23272a;
     width: 100%;
     height: 700px;
+    min-width: 1400px;
 }
 footer .social {
     float: left;
