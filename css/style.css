@@ -78,7 +78,7 @@ header nav #navdx .button:hover {
 /* jumbotron */
 #jumbotron {
     background-image: url("../img/jumbo.png");
-    height: 650px;
+    min-height: 650px;
     width: 100%;
     background-size: cover;
     min-width: 1400px;
