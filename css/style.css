@@ -129,9 +129,10 @@ header nav #navdx .button:hover {
 
 /* main */
 main .box {
-    height: 700px;
+    /* height: 700px; */
     width: 100%;
     min-width: 1400px;
+    padding-bottom: 200px;
 }
 main #box2{
     background-color: #f6f6f6;
@@ -140,7 +141,7 @@ main .wave {
     position: relative;
 }
 main #box4{
-    height: 1300px;
+    /* height: 1300px; */
     background-color: #f6f6f6;
     text-align: center;
     padding-top: 50px;
